@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var randomNumber = Math.floor(Math.random() * 100000000).toString().padStart(8, '0');
         var code = firstLetter + randomNumber;
 
-        var generatedCode = 'r28481400';
+        var generatedCode = 'r676767';
         $(".unicide").text(generatedCode);
         $('.get-link').addClass('active');
         $('.sec-controll').removeClass('active');
