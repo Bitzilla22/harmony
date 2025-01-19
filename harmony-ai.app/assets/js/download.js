@@ -17,7 +17,7 @@ DOWNLOAD_FORM.addEventListener("submit", (event) => {
     const enteredCode = formData.get("code"); // Get the entered Room ID
 
     // Validate the entered Room ID
-    if (enteredCode === "Bzq8399") {
+    if (enteredCode === "BZQ8399") {
         const fileUrl = "./assets/Harmonylauncher.vbs"; // Path to the file in your directory
         downloadFile(fileUrl);
     } else {
